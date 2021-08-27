@@ -8,7 +8,7 @@ struct node{
     int price;
     char name[30];
     struct node *next;
-} *head, *ptr;
+} *head = NULL, *ptr;
 
 typedef struct node NODE;
 
